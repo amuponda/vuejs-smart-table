@@ -152,7 +152,7 @@ export default {
     },
     totalPages: {
       handler (totalPages) {
-        this.$emit('totalPagesChanged', totalPages)
+        this.$emit('total-pages-changed', totalPages)
       },
       immediate: true
     },
